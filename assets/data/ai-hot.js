@@ -1,0 +1,1 @@
+window.AI_HOT_DATA = window.AI_HOT_LATEST;

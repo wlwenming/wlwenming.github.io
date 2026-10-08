@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>更新 AI 热点 · 文明的视界</title>
+  <meta name="description" content="采集并更新每日 AI 热点资讯。">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="page-doc">
+  <main class="container update-page">
+    <h1>更新 AI 热点</h1>
+    <p>点击后由 GitHub Actions 从中文 RSS 资讯源实时采集，完成后自动更新最新数据并归档历史数据。</p>
+
+    <label class="update-label" for="github-token">GitHub Token（仅本次使用，不会保存）</label>
+    <input class="update-input" id="github-token" type="password" autocomplete="off" placeholder="需要 Actions: Read and write 权限">
+
+    <button type="button" class="ai-hot-collect" data-update-start>采集并更新</button>
+    <p class="update-status" data-update-status aria-live="polite">等待开始。</p>
+
+    <nav class="doc-nav" aria-label="页面导航">
+      <a href="ai-hot.html">查看 AI 热点</a>
+      <a href="index.html">返回首页</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="copyright">© 2026 文明的视界 | 保留所有权利</div>
+  </footer>
+
+  <script src="assets/js/update.js"></script>
+</body>
+</html>
