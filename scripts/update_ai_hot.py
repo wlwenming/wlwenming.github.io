@@ -19,12 +19,14 @@ HISTORY_FILE = ROOT / "assets/data/ai-hot-history.js"
 NOW = datetime.now(ZoneInfo("Asia/Shanghai"))
 TODAY = NOW.date()
 AI_TERMS = (
-    "AI", "AIGC", "Agent", "智能体", "大模型", "人工智能", "机器学习", "深度学习",
-    "生成式", "多模态", "机器人", "算力", "芯片", "量子", "具身", "自动驾驶",
-    "蛋白质", "药物", "科学计算", "GPU", "LLM", "RAG", "模型"
+    "AI", "AIGC", "Agent", "智能体", "大模型", "人工智能", "具身", "自动驾驶", 
+    "多模态", "机器人", "算力", "芯片", "量子", "GPU", "LLM", "RAG"
 )
 FEEDS = (
     ("量子位", "https://www.qbitai.com/feed"),
+    ("36氪", "https://www.36kr.com/feed"),
+    ("极客公园", "https://www.geekpark.net/rss"),
+    ("开源中国", "https://www.oschina.net/news/rss"),
     ("InfoQ", "https://www.infoq.cn/feed"),
     ("IT之家", "https://www.ithome.com/rss/"),
 )
@@ -78,6 +80,23 @@ def parse_feed(source, url):
     return entries
 
 
+def date_from_value(value):
+    if value is None:
+        return None
+    text_value = str(value).strip()
+    if not text_value:
+        return None
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(text_value, fmt).date()
+        except ValueError:
+            pass
+    try:
+        return datetime.fromisoformat(text_value).date()
+    except ValueError:
+        return None
+
+
 def read_js(path, variable, fallback):
     if not path.exists():
         return fallback
@@ -105,7 +124,7 @@ def main():
     unique = {}
     for entry in entries:
         unique.setdefault(entry["topic"], entry)
-    entries = list(unique.values())[:10]
+    entries = list(unique.values())
     if len(entries) < 5:
         raise RuntimeError("可用中文 AI 资讯不足 5 条：" + "；".join(failures))
 
@@ -125,15 +144,24 @@ def main():
     latest = {
         "date": TODAY.isoformat(),
         "updated_at": NOW.strftime("%Y-%m-%d %H:%M:%S"),
-        "overview": "今日中文 AI 资讯聚焦 " + "、".join(directions) + "，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
+        "overview": "今日中文 AI 资讯聚焦 " + "、".join(directions) + "，数据来自量子位、36氪、极客公园、开源中国、InfoQ、IT之家等中文科技资讯源。",
         "items": [{key: value for key, value in entry.items() if key != "published"} for entry in entries],
     }
     old_latest = read_js(LATEST_FILE, "AI_HOT_LATEST", None)
     old_history = read_js(HISTORY_FILE, "AI_HOT_HISTORY", [])
     archive = ([old_latest] if old_latest else []) + old_history
+    recent_archive = []
+    for item in archive:
+        date_value = item.get("date") if isinstance(item, dict) else None
+        if not date_value and isinstance(item, dict):
+            date_value = item.get("updated_at")
+        parsed_date = date_from_value(date_value)
+        if parsed_date and (TODAY - parsed_date).days <= 9:
+            recent_archive.append(item)
+
     seen_versions = set()
     unique_archive = []
-    for item in archive:
+    for item in recent_archive:
         version = item.get("updated_at") or item.get("date")
         if item and version not in seen_versions:
             seen_versions.add(version)
