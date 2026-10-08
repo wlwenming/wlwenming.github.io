@@ -11,7 +11,7 @@
   function validateData(data) {
     return Array.isArray(data) && data.length > 0 && data.every(function (day) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(day.date) || !day.overview || !Array.isArray(day.items)) return false;
-      return day.items.length >= 5 && day.items.length <= 10 && day.items.every(function (item) {
+      return day.items.length > 0 && day.items.every(function (item) {
         return item.topic && item.progress && Array.isArray(item.refs) && item.refs.length > 0 &&
           item.refs.every(function (ref) {
             return ref.name && /^https?:\/\/[^\s]+$/.test(ref.url);
