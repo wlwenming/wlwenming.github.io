@@ -1,6 +1,233 @@
 window.AI_HOT_HISTORY = [
   {
     "date": "2026-10-09",
+    "updated_at": "2026-10-09 23:56:45",
+    "overview": "今日中文 AI 资讯聚焦 AI Agent、大模型、具身智能、算力芯片，数据来自量子位、36氪、极客公园、开源中国、InfoQ、IT之家等中文科技资讯源。",
+    "items": [
+      {
+        "topic": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
+        "progress": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名",
+        "refs": [
+          {
+            "name": "量子位",
+            "url": "https://www.qbitai.com/2026/10/502422.html"
+          }
+        ]
+      },
+      {
+        "topic": "《柳叶刀》研究表明：AI 有望改善医患关系",
+        "progress": "Google 研究成果首次登上《柳叶刀》主刊",
+        "refs": [
+          {
+            "name": "量子位",
+            "url": "https://www.qbitai.com/2026/10/502359.html"
+          }
+        ]
+      },
+      {
+        "topic": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
+        "progress": "星动纪元选择将视频预测与动作学习分阶段训练，重点不是「视频、动作一锅炖」，而是把两者「解耦」，重新「排序」。",
+        "refs": [
+          {
+            "name": "量子位",
+            "url": "https://www.qbitai.com/2026/10/502125.html"
+          }
+        ]
+      },
+      {
+        "topic": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
+        "progress": "多Agent协同还能自我进化",
+        "refs": [
+          {
+            "name": "量子位",
+            "url": "https://www.qbitai.com/2026/10/502106.html"
+          }
+        ]
+      },
+      {
+        "topic": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化",
+        "progress": "让AI反复试错的“练兵场”来了",
+        "refs": [
+          {
+            "name": "量子位",
+            "url": "https://www.qbitai.com/2026/10/502096.html"
+          }
+        ]
+      },
+      {
+        "topic": "美央构建物理AI路径闭环：把人体变成可计算的真实世界",
+        "progress": "万美京AIMIRA构建\"感知—理解—决策—执行—反馈\"产品闭环，回答物理AI核心命题 当AI走出屏幕，游戏规则彻底改变：真实的人体有空间结构、组织状态与一刻不停的时间变化；软件说错一句话可以重新生成，机器做错一个动作，结果可能无法撤回。物理AI难的从来不是更大的模型，而是\"感知—建模—决策—执行—验证—再学习\"这条长链路。广州美央创新科技（Calilia国际集团/万美京AIMIRA）已把这条链路落成产品体系：FAITH是感知入口，\"女娲\"人体真实世界模型负责建模与理解，医疗级智能硬件与具身设备执行，效果与长期变化再",
+        "refs": [
+          {
+            "name": "36氪",
+            "url": "https://36kr.com/p/4018021038657411"
+          }
+        ]
+      },
+      {
+        "topic": "让AI走进真实产线，汇川技术2026工博会看点前瞻",
+        "progress": "一把鲁班锁，几块木件，靠相互咬合形成稳固整体。结构如何组织，决定着各个部分能否共同发挥作用。这个古老物件，也为理解工业智能提供了一个直观入口：让AI走进制造现场，需要把算法、数据和设备真正连接起来。 10月12日至16日，2026中国国际工业博览会将在国家会展中心（上海）举行。汇川技术将以“以智融实，共赴新型工业化”为主题，围绕“Make Intelligence REAL”，展示智能技术融入工业现场的路径。鲁班锁所蕴含的结构智慧，正是理解此次参展的一条线索。 工业现场对智能有着具体而严格的要求。一次控制能否及时响",
+        "refs": [
+          {
+            "name": "36氪",
+            "url": "https://36kr.com/p/4016926621470853"
+          }
+        ]
+      },
+      {
+        "topic": "特斯拉弃用“自动驾驶”命名，以争取欧洲监管批准",
+        "progress": "特斯拉正在淡化Full Self-Driving（全自动辅助驾驶）这一命名，以争取其驾驶辅助系统在欧洲获得批准，并与这个长期被批评具有误导性的名称拉开距离。最近几天，特斯拉已开始在欧洲网站上使用“Tesla Assisted Driving（特斯拉辅助驾驶）”这一名称。与此同时，其美国网站仍将这项技术称为\"Full Self-Driving（Supervised）”,即“全自动辅助驾驶（受驾驶监督）”。（财联社）",
+        "refs": [
+          {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/4018624031854471"
+          }
+        ]
+      },
+      {
+        "topic": "报道称OpenAI和Anthropic正在聘用前特朗普政府官员",
+        "progress": "据报道，OpenAI和Anthropic正在聘用前特朗普政府官员。（财联社）",
+        "refs": [
+          {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/4018538702508165"
+          }
+        ]
+      },
+      {
+        "topic": "我使用国产「个人 AI 助手」的十天｜AI 上新",
+        "progress": "过去一年，AI 产品越来越想变成一个「人」。 一边是越来越自动化的 Agent，已经可以直接操作电脑，甚至和其他 AI 互相通信。 而另一边，是近期大火的「个人助理」式 Personal AI，它不仅要完成眼前的任务，还想记住是谁在提需求：这个人关心什么，手上有哪些没做完的事。 就在最近一个月里， Meta 推出了 Muse； Manus 推出个人 Agent 应用 Cue； OpenAI 随后发布 Dots。 它们的形态不同，但目的近似，都在试图长期记住用户的目标和偏好，进入用户日常使用的软件，并在用户没有主动提",
+        "refs": [
+          {
+            "name": "极客公园",
+            "url": "http://www.geekpark.net/news/372163"
+          }
+        ]
+      },
+      {
+        "topic": "谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序",
+        "progress": "谷歌云发布 Gemini Agent，支持多种 AI 模型 10 月 8 日，谷歌云在 Gemini at Work 2026 发布会上宣布，面向企业客户推出 Gemini 智能体（Gemini Agent）。这款产品定位「通用工作智能体」，支持 Gemini Enterprise 、Workspace 以及第三方服务。 谷歌表示，Gemini Agent 只需要用户给出目标就能完成工作，支持回答问题、处理知识型工作、创建媒体内容，以及编写程序。 除了充当个人助理之外，Gemini 智能体还可以用作「团队成员」。它",
+        "refs": [
+          {
+            "name": "极客公园",
+            "url": "http://www.geekpark.net/news/372143"
+          }
+        ]
+      },
+      {
+        "topic": "无人机烧了 Yandex 数据中心，两个 AI 超级计算机可能搭在里面",
+        "progress": "10 月 8 日，位于俄罗斯梁赞州 Sasovo 的 Yandex 数据中心遭乌克兰无人机打击，起火后运营被迫完全暂停。根据路透社的报道：这个中心是 Yandex 五个大型数据中心之一，托管着数万台服务器——以及该公司用于开发 AI 模型的三个超级计算机中的两个。Yandex 至今没有说明它们是否受损。 Yandex 的声明在「能否恢复」这个问...",
+        "refs": [
+          {
+            "name": "开源中国",
+            "url": "https://www.oschina.net/news/502918/russia-yandex-ukraine-drone-strike-data-center"
+          }
+        ]
+      },
+      {
+        "topic": "不写一行 Python，不引一行 C：纯 Uya 从零实现的 CLI 编程 Agent 开源了",
+        "progress": "一个 Agent 项目，不依赖 Python，不引入一行 C 代码——纯 Uya 写的 CLI 编程 Agent 如果你在 2026 年还在用 Python 写 Agent，大概率已经习惯了这些“标配”：装 LangChain、配依赖、调 API、处理 token 溢出、管理会话状态……这些东西确实让 Agent 开发变得容易了，但也带来了一个新的问题——框架本身，正在变成最复...",
+        "refs": [
+          {
+            "name": "开源中国",
+            "url": "https://www.oschina.net/news/502916"
+          }
+        ]
+      },
+      {
+        "topic": "Markdown 是 AI 编程时代的“源代码”，应该把它提交到 /src 目录",
+        "progress": "htmx 作者 Carson Gross 写了一篇随笔，主张把 Markdown 当成源代码。他不是要说「文档该用 Markdown 写」这种老话，而是一个正在行业里成形的趋势：agentic coding 时代，真正的应用逻辑被定义在 Markdown 里，agent 生成的代码反而成了「低层实现细节」——这句判断他引自 Hartley Brody 的《Markdown is the new sou...",
+        "refs": [
+          {
+            "name": "开源中国",
+            "url": "https://www.oschina.net/news/502915/markdown-in-src"
+          }
+        ]
+      },
+      {
+        "topic": "$100 预算 + 四个顶级大模型，造出的 PDF 编辑器点几下就露馅",
+        "progress": "一个研究 LLM for Code 的研究者，拿 400 美元做了个实验：给 Gemini 3.8 Flash、GPT Astra 6、Opus 5、Fable 5 四个前沿模型各 $100 预算，让它们自主开发一款「用户体验极好」的开源 PDF 编辑器——结果是「点几下就能在几乎每个里找到 bug」。作者 nielstron 据此提出：coding agent 不能像人一样和软件交互，所以它们...",
+        "refs": [
+          {
+            "name": "开源中国",
+            "url": "https://www.oschina.net/news/502906/the-remaining-shortcomings-of-coding-agents"
+          }
+        ]
+      },
+      {
+        "topic": "跳出 AI 试点陷阱：SUSE 企业级私有 AI 战略，用开源基础设施打通生产级落地",
+        "progress": "AI 发展正在经历一个非常明显的分水岭：大量企业已经跑完概念验证，做过 Demo 试点，但卡在 “从实验环境迈向生产部署” 这道鸿沟上。很多团队会遇到相似的困境：POC 阶段效果惊艳，一旦迁移到本地数据中心、离线隔离环境、多云混合架构，就会暴露出数据安全、厂商锁定、运维复杂度飙升、算力资源浪费等一系列现实难题。...",
+        "refs": [
+          {
+            "name": "开源中国",
+            "url": "https://www.oschina.net/news/502904"
+          }
+        ]
+      },
+      {
+        "topic": "国务院发布《关于发展新质生产力的意见》：加快推进智能网联新能源汽车、人工智能手机和电脑、人形机器人等新一代智能终端场景应用",
+        "progress": "IT之家 10 月 9 日消息，中共中 央 国 务院今日发布《关于发展新质生产力的意见》，提出 19 条重大发展改革任务，坚持“创新主导、改革为要、因地制宜、先立后破”4 条原则。 《意见》将“大力推进科技创新”作为 5 大任务之首，提出加强原创性颠覆性科技创新、加快突破关键核心技术、统筹国家战略科技力量建设、强化企业科技创新主体地位、加速科技成果向现实生产力转化。 在培育壮大新兴产业方面，《意见》提出着力打造新兴支柱产业。加快新一代信息技术、新能源、新材料、智能网联新能源汽车、机器人、生物医药、高端装备、航空航天",
+        "refs": [
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/011/142.htm"
+          }
+        ]
+      },
+      {
+        "topic": "小米 18 Fold 中折叠手机登顶安兔兔 9 月 Android 旗舰性能榜，搭玄戒 O3 芯片平均跑分超 462 万",
+        "progress": "IT之家 10 月 9 日消息，安兔兔官方今日发布了 9 月 Android 旗舰手机性能榜。从榜单可以看到， 小米 18 Fold 中折叠手机成功登顶 ，平均跑分超 462 万分，领先其他搭载了第六代骁龙 8 超级至尊版、天玑 9600 Pro 机型。 据IT之家此前报道， 小米 18 Fold 中折叠手机发布于 9 月 7 日 ，首发玄戒 O3 芯片，配备 5.38″ 外屏 +7.58″ 内屏，并后置徕卡专业三摄，售价 10999 元起： 12GB+256GB：10999 元 12GB+512GB：11999 ",
+        "refs": [
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/011/128.htm"
+          }
+        ]
+      },
+      {
+        "topic": "46999 元起，极摩客 EVO-X5 Pro 迷你 AI 工作站发售",
+        "progress": "IT之家 10 月 9 日消息，极摩客 (GMKtec) 现已正式开始销售 EVO-X5 Pro 桌面迷你 AI 工作站。 EVO-X5 Pro 基于 AMD 锐龙 AI Max+ PRO 495 \"Gorgon Halo\" 处理器， 支持本地运行 320B 大模型 ，预装 GMKtec Claw 智能体。 其提供 192GB + 2TB 和 192GB + 4TB 两档存储器配置，价格分别为 46,999 元和 49,999 元。 京东 极摩客 EVO-X5 Pro 迷你主机 46999 元起 直达链接 该机型采",
+        "refs": [
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/011/113.htm"
+          }
+        ]
+      },
+      {
+        "topic": "华为鸿蒙电脑 9 月体验报告发布：全新沉浸光感、图库 AI 修图、小艺任务模式等",
+        "progress": "IT之家 10 月 9 日消息，华为官方今日在花粉俱乐部发布了鸿蒙电脑 9 月体验报告，公布了鸿蒙电脑今年 9 月升级多个版本后带来的新变化，包括全新沉浸光感、图库 AI 修图、小艺任务模式、动态壁纸、华为远程分享、超空间存储 / 内存技术、3D 影像壁纸等。 参考IT之家昨日报道， DevEco Studio 也已正式上线鸿蒙 PC 并开启公测 ，一站式鸿蒙应用 AI 开发工具 DevEco Code 与 AI 开发能力套件 DevEco CLI 同步迎来鸿蒙 PC 版首次公测。 据华为官方介绍，此次 DevEc",
+        "refs": [
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/011/111.htm"
+          }
+        ]
+      },
+      {
+        "topic": "懂车帝：网传内部整顿通知截图系 AI 生成，相关信息均为谣言",
+        "progress": "IT之家 10 月 9 日消息，据懂车帝企业辟谣官方账号，一张所谓以“懂车帝科技有限公司人力资源部”名义发布的内部整顿通知截图在网上流传。官方声明称：“该截图系 AI 生成，相关信息均为谣言，不排除有引导舆论的可能，请大家不信谣、不传谣。” IT之家附懂车帝辟谣声明原文如下： 我们注意到，一张所谓以“懂车帝科技有限公司人力资源部”名义发布的内部整顿通知截图在网上流传。我们在此声明： 该截图系 AI 生成，相关信息均为谣言，不排除有引导舆论的可能，请大家不信谣、不传谣 。同时，懂车帝将核实谣言来源，坚决采取法律措施维",
+        "refs": [
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/011/096.htm"
+          }
+        ]
+      },
+      {
+        "topic": "打折还是 MOVA 猛：P70S 活水洗地扫拖机器人 3299 → 999 元 20:00 开抢",
+        "progress": "【扫地机器人需联网使用，介意慎拍。】 京东家居家电 10 月 9 日今晚 20:00 正式开启双十一全面抢，现在可去主会场领加码 9 折券： 点此领券 。 MOVA P70S 于 2026 年 3 月上市，水箱版官方定价 3299 元，这几个月日常国补价 1999 元。 今日 20:00 前 100 台直降至 999 元，有需求的小伙伴可以抢抢看哦。 另外可能还能叠加以旧换新优惠 + 京东平台种草补贴，需以下单时订单显示为准哦： 京东 Mova 活水滚筒扫拖机器人 P70S 水箱版 20:00 999 元 直达链接",
+        "refs": [
+          {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/1/011/090.htm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
     "updated_at": "2026-10-09 13:20:41",
     "overview": "今日中文 AI 资讯聚焦 AI Agent、大模型、具身智能，数据来自量子位、36氪、极客公园、开源中国、InfoQ、IT之家等中文科技资讯源。",
     "items": [
@@ -2257,220 +2484,6 @@ window.AI_HOT_HISTORY = [
           {
             "name": "IT之家",
             "url": "https://www.ithome.com/1/008/959.htm"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-09-30",
-    "updated_at": "2026-09-30 17:38:12",
-    "overview": "今日中文 AI 资讯聚焦 AI Agent、具身智能、算力芯片、AI for Science，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
-    "items": [
-      {
-        "topic": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
-        "progress": "给Agent配上手机号，再拉个群",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499592.html"
-          }
-        ]
-      },
-      {
-        "topic": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
-        "progress": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499308.html"
-          }
-        ]
-      },
-      {
-        "topic": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
-        "progress": "机器人上市，风向有变",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499280.html"
-          }
-        ]
-      },
-      {
-        "topic": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
-        "progress": "该文章报道了人工智能技术领域的最新进展。",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499263.html"
-          }
-        ]
-      },
-      {
-        "topic": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
-        "progress": "今年devday牙膏挤爆",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499246.html"
-          }
-        ]
-      },
-      {
-        "topic": "IBM 量子处理器仅用 19 秒完成百万次采样，挑战超级计算机 110 年任务",
-        "progress": "IT之家 9 月 30 日消息，美国 BlueQubit 研究团队利用 IBM 最新的 Nighthawk r2 量子处理器完成了一项随机量子线路采样实验，仅用 19 秒就生成了 100 万个样本。BlueQubit 研究人员估计，用 Frontier 超级计算机复现同等任务约需 110 年。 该实验由美国量子计算软件与云平台公司 BlueQubit 理论凝聚态物理学家 Tigran Sedrakyan 领衔。 Nighthawk r2 是一款拥有 120 个量子比特的超导量子处理器，可通过 IBM 云平台访问。研",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/789.htm"
-          }
-        ]
-      },
-      {
-        "topic": "OpenClaw Enterprise 官宣：为智能体提供企业级安全与控制功能",
-        "progress": "IT之家 9 月 30 日消息，OpenClaw 官方当地时间本月 29 日官宣了 OpenClaw Enterprise，这是一个开源中立的 敏感环境持久性智能体管理平台 。 持久性智能体的部署并未像此前预计的那样快速铺开，而这主要是因为智能体领域目前仍缺乏强大的通用安全、保障、治理标准，让企业和组织难以放心使用。 即将发布 1.0 正式版的 OpenClaw Enterprise 正是为此而生，其为智能体引入了企业级控制平面，支持多租户、严格的安全边界、标准化的智能体原语，在智能体生命周期内增强了治理和审计能力",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/774.htm"
-          }
-        ]
-      },
-      {
-        "topic": "消息称豆包 AI 个人助手产品叫作“小豆”，计划推出独立 App",
-        "progress": "IT之家 9 月 30 日消息，新浪科技此前曾报道， 豆包在个人助理方向正在推进相关产品规划 ，该探索项目当时代号为“Spell”，主要由豆包手机助手团队主导。 据《读佳》今日消息， 豆包这款产品叫作“小豆” ， 并会推出独立 App 版本 ，小豆的名字在今年暑期就已确定。小豆目前还在内部测试阶段，最终对外版本有可能发生调整，一切以官方发布为准。 据IT之家此前报道，2025 年 12 月， 豆包手机助手技术预览版首次亮相 ，首发搭载于与中兴合作的努比亚 M153 工程样机。 2026 年 9 月， 豆包手机助手消",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/773.htm"
-          }
-        ]
-      },
-      {
-        "topic": "LG 与微软合作研发智能家居 AI 语音助手，号称可实现流畅自然语音交流",
-        "progress": "IT之家 9 月 30 日消息，据韩媒 EtNews 今天报道，LG 电子今天在首尔江南区举办的微软行业峰会上，展示与微软合作研发的智能家居 AI 语音助手。该产品应用于智能家居中枢设备“ThinQ ON”，号称可实现接近人类交流的对话体验。 据介绍，这款语音助手基于语音到语音（Speech to Speech）智能体技术，融合微软的 Voice Live。它可以支持“插话”功能， 用户在聆听 AI 助手回答时能够继续提出新问题 ，系统会立即中断原有回答，理解用户的新意图并切换对话。 LG 电子计划在年内推出搭载 ",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/770.htm"
-          }
-        ]
-      },
-      {
-        "topic": "三星 Galaxy Tab S12 Ultra 平板宣传图曝光：7 年安卓更新、主打 AI 技能",
-        "progress": "IT之家 9 月 30 日消息，科技媒体 sammyguru 今天（9 月 30 日）发布博文，分享了一组来自电商平台的图片 ，展示了三星 Galaxy Tab S12 Ultra 和 Galaxy Tab S12+，并显示两款平板 10 月 7 日发布。 Galaxy Tab S12 Ultra 最高提供 16GB 内存与 1TB 存储，搭载联发科天玑 9500 芯片。屏幕为 14.6 英寸 Dynamic AMOLED 2X，分辨率 2960×1848，支持 120Hz 刷新率，S Pen 随盒附赠。IT之家附",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/762.htm"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-09-30",
-    "updated_at": "2026-09-30 08:00:00",
-    "overview": "今日中文 AI 资讯聚焦 AI Agent、具身智能、算力芯片、AI for Science，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
-    "items": [
-      {
-        "topic": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
-        "progress": "给Agent配上手机号，再拉个群",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499592.html"
-          }
-        ]
-      },
-      {
-        "topic": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
-        "progress": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499308.html"
-          }
-        ]
-      },
-      {
-        "topic": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
-        "progress": "机器人上市，风向有变",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499280.html"
-          }
-        ]
-      },
-      {
-        "topic": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
-        "progress": "该文章报道了人工智能技术领域的最新进展。",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499263.html"
-          }
-        ]
-      },
-      {
-        "topic": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
-        "progress": "今年devday牙膏挤爆",
-        "refs": [
-          {
-            "name": "量子位",
-            "url": "https://www.qbitai.com/2026/09/499246.html"
-          }
-        ]
-      },
-      {
-        "topic": "IBM 量子处理器仅用 19 秒完成百万次采样，挑战超级计算机 110 年任务",
-        "progress": "IT之家 9 月 30 日消息，美国 BlueQubit 研究团队利用 IBM 最新的 Nighthawk r2 量子处理器完成了一项随机量子线路采样实验，仅用 19 秒就生成了 100 万个样本。BlueQubit 研究人员估计，用 Frontier 超级计算机复现同等任务约需 110 年。 该实验由美国量子计算软件与云平台公司 BlueQubit 理论凝聚态物理学家 Tigran Sedrakyan 领衔。 Nighthawk r2 是一款拥有 120 个量子比特的超导量子处理器，可通过 IBM 云平台访问。研",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/789.htm"
-          }
-        ]
-      },
-      {
-        "topic": "OpenClaw Enterprise 官宣：为智能体提供企业级安全与控制功能",
-        "progress": "IT之家 9 月 30 日消息，OpenClaw 官方当地时间本月 29 日官宣了 OpenClaw Enterprise，这是一个开源中立的 敏感环境持久性智能体管理平台 。 持久性智能体的部署并未像此前预计的那样快速铺开，而这主要是因为智能体领域目前仍缺乏强大的通用安全、保障、治理标准，让企业和组织难以放心使用。 即将发布 1.0 正式版的 OpenClaw Enterprise 正是为此而生，其为智能体引入了企业级控制平面，支持多租户、严格的安全边界、标准化的智能体原语，在智能体生命周期内增强了治理和审计能力",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/774.htm"
-          }
-        ]
-      },
-      {
-        "topic": "消息称豆包 AI 个人助手产品叫作“小豆”，计划推出独立 App",
-        "progress": "IT之家 9 月 30 日消息，新浪科技此前曾报道， 豆包在个人助理方向正在推进相关产品规划 ，该探索项目当时代号为“Spell”，主要由豆包手机助手团队主导。 据《读佳》今日消息， 豆包这款产品叫作“小豆” ， 并会推出独立 App 版本 ，小豆的名字在今年暑期就已确定。小豆目前还在内部测试阶段，最终对外版本有可能发生调整，一切以官方发布为准。 据IT之家此前报道，2025 年 12 月， 豆包手机助手技术预览版首次亮相 ，首发搭载于与中兴合作的努比亚 M153 工程样机。 2026 年 9 月， 豆包手机助手消",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/773.htm"
-          }
-        ]
-      },
-      {
-        "topic": "LG 与微软合作研发智能家居 AI 语音助手，号称可实现流畅自然语音交流",
-        "progress": "IT之家 9 月 30 日消息，据韩媒 EtNews 今天报道，LG 电子今天在首尔江南区举办的微软行业峰会上，展示与微软合作研发的智能家居 AI 语音助手。该产品应用于智能家居中枢设备“ThinQ ON”，号称可实现接近人类交流的对话体验。 据介绍，这款语音助手基于语音到语音（Speech to Speech）智能体技术，融合微软的 Voice Live。它可以支持“插话”功能， 用户在聆听 AI 助手回答时能够继续提出新问题 ，系统会立即中断原有回答，理解用户的新意图并切换对话。 LG 电子计划在年内推出搭载 ",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/770.htm"
-          }
-        ]
-      },
-      {
-        "topic": "三星 Galaxy Tab S12 Ultra 平板宣传图曝光：7 年安卓更新、主打 AI 技能",
-        "progress": "IT之家 9 月 30 日消息，科技媒体 sammyguru 今天（9 月 30 日）发布博文，分享了一组来自电商平台的图片 ，展示了三星 Galaxy Tab S12 Ultra 和 Galaxy Tab S12+，并显示两款平板 10 月 7 日发布。 Galaxy Tab S12 Ultra 最高提供 16GB 内存与 1TB 存储，搭载联发科天玑 9500 芯片。屏幕为 14.6 英寸 Dynamic AMOLED 2X，分辨率 2960×1848，支持 120Hz 刷新率，S Pen 随盒附赠。IT之家附",
-        "refs": [
-          {
-            "name": "IT之家",
-            "url": "https://www.ithome.com/1/008/762.htm"
           }
         ]
       }
